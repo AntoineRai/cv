@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function App() {
   // Mode sombre activé par défaut
@@ -196,6 +196,10 @@ export default function App() {
           </div>
         </section>
       </div>
+      {/* Footer */}
+      <footer className="w-full text-center py-4 mt-8 bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-300">
+        <span>&copy; {new Date().getFullYear()} Antoine Raimand &middot; Fait avec <span className="inline-block align-middle"><svg width="18" height="18" viewBox="0 0 40 40" fill="none" className="inline" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="4" fill="#61DAFB"/><g stroke="#61DAFB" strokeWidth="2" fill="none"><ellipse rx="16" ry="6.5" cx="20" cy="20"/><ellipse rx="16" ry="6.5" cx="20" cy="20" transform="rotate(60 20 20)"/><ellipse rx="16" ry="6.5" cx="20" cy="20" transform="rotate(120 20 20)"/></g></svg></span> React</span>
+      </footer>
     </main>
   );
 } 
