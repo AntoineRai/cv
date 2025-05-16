@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <main className="bg-gray-50 dark:bg-gray-900 min-h-screen font-sans text-gray-900 dark:text-gray-100 transition-colors duration-300">
-      <div className="max-w-4xl mx-auto p-4 sm:p-8">
+      <div className="max-w-4xl mx-auto px-4 sm:px-8 py-4 sm:py-8">
         {/* Toggle dark mode */}
         <div className="flex justify-end mb-4">
           <button
@@ -70,7 +70,7 @@ export default function App() {
 
         {/* Profil */}
         <section className="mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-5 border border-gray-100 dark:border-gray-700">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-5 border border-gray-100 dark:border-gray-700 max-w-md mx-auto sm:max-w-full">
             <h2 className="text-xl font-semibold mb-2 tracking-wide text-gray-800 dark:text-gray-100">Profil</h2>
             <p className="text-gray-700 dark:text-gray-200 text-base">
               Développeur web polyvalent, passionné par la création d'applications performantes et le travail en équipe. Orienté optimisation et innovation, avec une approche centrée sur l'agilité et la collaboration.
@@ -80,7 +80,7 @@ export default function App() {
 
         {/* Formations */}
         <section className="mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-5 border border-gray-100 dark:border-gray-700">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-5 border border-gray-100 dark:border-gray-700 max-w-md mx-auto sm:max-w-full">
             <h2 className="text-xl font-semibold mb-2 tracking-wide text-gray-800 dark:text-gray-100">Formations</h2>
             <ul className="space-y-2">
               <li>
@@ -98,7 +98,7 @@ export default function App() {
 
         {/* Expériences */}
         <section className="mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-5 border border-gray-100 dark:border-gray-700">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-5 border border-gray-100 dark:border-gray-700 max-w-md mx-auto sm:max-w-full">
             <h2 className="text-xl font-semibold mb-2 tracking-wide text-gray-800 dark:text-gray-100">Expériences</h2>
             <div className="space-y-4">
               <div>
@@ -157,7 +157,7 @@ export default function App() {
 
         {/* Compétences */}
         <section className="mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-5 border border-gray-100 dark:border-gray-700">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-5 border border-gray-100 dark:border-gray-700 max-w-md mx-auto sm:max-w-full">
             <h2 className="text-xl font-semibold mb-2 tracking-wide text-gray-800 dark:text-gray-100">Compétences</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
@@ -186,7 +186,7 @@ export default function App() {
 
         {/* Infos complémentaires */}
         <section className="mb-8">
-          <div className="bg-white dark:bg-gray-800 rounded-xl shadow p-5 border border-gray-100 dark:border-gray-700">
+          <div className="bg-white dark:bg-gray-800 rounded-2xl shadow p-5 border border-gray-100 dark:border-gray-700 max-w-md mx-auto sm:max-w-full">
             <h2 className="text-xl font-semibold mb-2 tracking-wide text-gray-800 dark:text-gray-100">Informations complémentaires</h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-200 text-sm ml-2">
               <li><span className="font-semibold">Langues :</span> Anglais B2 - 860 TOEIC</li>
@@ -197,7 +197,7 @@ export default function App() {
         </section>
       </div>
       {/* Footer */}
-      <footer className="w-full text-center py-4 mt-8 bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-300">
+      <footer className="w-full text-center py-4 mt-8 bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 text-sm text-gray-600 dark:text-gray-300 px-2">
         <span>&copy; {new Date().getFullYear()} Antoine Raimand &middot; Fait avec <span className="inline-block align-middle"><svg width="18" height="18" viewBox="0 0 40 40" fill="none" className="inline" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="4" fill="#61DAFB"/><g stroke="#61DAFB" strokeWidth="2" fill="none"><ellipse rx="16" ry="6.5" cx="20" cy="20"/><ellipse rx="16" ry="6.5" cx="20" cy="20" transform="rotate(60 20 20)"/><ellipse rx="16" ry="6.5" cx="20" cy="20" transform="rotate(120 20 20)"/></g></svg></span> React</span>
       </footer>
     </main>
