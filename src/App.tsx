@@ -59,7 +59,7 @@ export default function App() {
             </div>
           </div>
           <div className="flex flex-col items-center sm:items-end gap-2 text-sm text-gray-700 dark:text-gray-200">
-            <span>59149 Cousolre</span>
+            <span>Lille et alentours</span>
             <a href="mailto:antoine.raimand@gmail.com" className="hover:underline">antoine.raimand@gmail.com</a>
             <span>06 88 08 80 97</span>
             <span>Permis B Véhicule</span>
