@@ -269,10 +269,10 @@ export default function App() {
                   <li className="flex flex-col gap-1">
                     <div className="flex justify-between items-center">
                       <span className="text-sm">ReactJS / NextJS</span>
-                      <span className="text-xs text-gray-500">95%</span>
+                      <span className="text-xs text-gray-500">75%</span>
                     </div>
                     <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
-                      <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: '95%' }}></div>
+                      <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: '75%' }}></div>
                     </div>
                   </li>
                   <li className="flex flex-col gap-1">
@@ -287,10 +287,10 @@ export default function App() {
                   <li className="flex flex-col gap-1">
                     <div className="flex justify-between items-center">
                       <span className="text-sm">TailwindCSS</span>
-                      <span className="text-xs text-gray-500">90%</span>
+                      <span className="text-xs text-gray-500">80%</span>
                     </div>
                     <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
-                      <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: '90%' }}></div>
+                      <div className="bg-blue-600 h-2.5 rounded-full" style={{ width: '80%' }}></div>
                     </div>
                   </li>
                 </ul>
