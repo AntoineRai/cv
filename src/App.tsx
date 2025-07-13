@@ -140,7 +140,7 @@ export default function App() {
             <h2 className="text-xl font-semibold mb-2 tracking-wide text-gray-800 dark:text-gray-100">Formations</h2>
             <ul className="space-y-2">
               <li>
-                <span className="font-bold">2023 - 2025</span> — Mastère Informatique spécialité Développement Web, Lille Ynov Campus
+                <span className="font-bold">2023 - 2025</span> — Master Informatique spécialité Développement Web, Lille Ynov Campus
               </li>
               <li>
                 <span className="font-bold">2022 - 2023</span> — Bachelor Informatique Administrateur Système et Réseaux, Lille Ynov Campus
